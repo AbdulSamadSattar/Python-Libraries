@@ -1,0 +1,7 @@
+print("hello world")
+str1 = input ("Enter Any number: ")
+str2 = input ("Enter Any number: ")
+
+a = int(str1)
+b = int(str2)
+print(a+b) 

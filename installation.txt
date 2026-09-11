@@ -1,0 +1,39 @@
+ FOR WINDOWS
+ open cmd in the folder 
+ jupyter --version
+ where jupyter
+ write "jupyter notebook"
+
+
+In cmd of current folder 
+
+python -m venv myenv
+
+myenv\Scripts\Activate.ps1
+or
+myenv\Scripts\activate.bat
+
+pip install jupyter ipykernel
+
+python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
+
+
+   for installing numpy:
+
+pip install numpy
+
+myenv\Scripts\Activate.ps1
+or
+source myenv/bin/activate
+
+python -c "import numpy; print(numpy.__version__)"
+import numpy as np
+print(np.__version__)
+
+
+    For installing Pandas
+pip install pandas
+python.exe -m pip install --upgrade pip
+import pandas as pd
+print(pandas.__version__)
+
