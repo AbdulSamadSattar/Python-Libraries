@@ -4,6 +4,8 @@
  where jupyter
  write "jupyter notebook"
 
+pip install numpy scipy seaborn pandas matplotlib
+python -c "import numpy, scipy, seaborn, pandas, matplotlib; print('All good')"
 
 In cmd of current folder 
 
